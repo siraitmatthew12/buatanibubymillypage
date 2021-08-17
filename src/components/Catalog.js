@@ -18,8 +18,7 @@ function Catalog() {
             <div className="pic12">
             <div className="pic2">
                     <h2>Cheese Cake</h2>
-                    <p>Classic Cheese Cake with thick hair of cheese and the taste of sweet buttercream.<br></br> 475k | 20cm
-                    <br></br>375k | 18cm.</p>
+                    <p>Classic Cheese Cake with thick hair of cheese and the taste of sweet buttercream.</p>
                 </div>
                 <div></div>
                 <div className="pic1">
@@ -31,8 +30,7 @@ function Catalog() {
             <div className="pic12">
                 <div className="pic2">
                     <h2>Classic Bomboloni</h2>
-                    <p>Classic Doughnuts with 4 different kinds of flavours and icing sugar on top.<br></br>
-                    Price : 180k | 12 pcs.</p>
+                    <p>Classic Doughnuts with 4 different kinds of flavours and icing sugar on top.</p>
                 </div>
                 <div></div>
                 <div className="pic1">
@@ -46,7 +44,7 @@ function Catalog() {
                     <p>Classic Marblecake 
                         with premium 
                         ingredients 
-                        and valrhona chocolate.<br></br>Price : 275k.</p>
+                        and valrhona chocolate.</p>
                 </div>
                 <div></div>
                 <div className="pic1">
@@ -61,8 +59,7 @@ function Catalog() {
                     <p>Classic Brownies 
                         with premium 
                         ingredients 
-                        and cute cups and sealing.
-                        <br></br>Price : 70k | cup.</p>
+                        and cute cups and sealing.</p>
                 </div>
                 <div></div>
                 <div className="pic1">
@@ -73,8 +70,7 @@ function Catalog() {
                 <div className="pic12">
                 <div className="pic2">
                     <h2>London Fog</h2>
-                    <p>Classic London Fog Cake with extra Hersheys or cherry on Top.
-                    <br></br>Price : 800k.
+                    <p>Classic London Fog Cake with extra Hersheys or cherry on Top..
                     </p>
                 </div>
                 <div></div>
@@ -87,7 +83,6 @@ function Catalog() {
                 <div className="pic2">
                     <h2>Mango Coconut</h2>
                     <p>A perfect and delightful dessert as your freshner in hot or cold weather.
-                    <br></br>Price : 85k | box.
                     </p>
                 </div>
                 <div></div>
@@ -100,9 +95,6 @@ function Catalog() {
                 <div className="pic2">
                     <h2>Mocha Nougat</h2>
                     <p>Has the same size as cheese cake, but this contains more variation. You can choose between sprinkles only, half, or nut only.
-                    <br></br>500k | 20cm
-                    <br></br>400k | 18cm.
-                    <br></br>*These price haven't include rum
                     </p>
                 </div>
                 <div></div>
