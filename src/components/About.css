@@ -1,29 +1,21 @@
 .back{
     background-color: #af9989;
-    z-index: -999;
 }
 .aboutcontainer{
     margin-right: 18%;
     margin-left: 10%;
     padding-top: 150px;
     padding-bottom: 150px;
-    opacity: 100%;
-}
-.ownerabout{
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 .aboutcontainer h1{
     font-size: 4rem;
     margin-bottom: 50px;
     color:#531600 ;
-    z-index: 999;
 }
 .aboutcontainer h3{
     font-size: 2.0rem;
     margin-bottom: 30px;
     line-height: 50px;
-    z-index: 999;
 }
 .aboutcontainer .exp{
     font-size: 1.5rem;
