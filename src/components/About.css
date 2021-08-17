@@ -1,5 +1,8 @@
 .back{
     background-color: #af9989;
+    background: url('sebardonut.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .aboutcontainer{
     margin-right: 18%;
