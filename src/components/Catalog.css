@@ -1,0 +1,175 @@
+.catalog-container{
+    background-color: #ffd857;
+}
+.catalog-title{
+    text-align: center;;
+}
+.catalog-title h1{
+    font-size: 3.5rem;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    color:#531600 ;
+}
+.slider{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide.active{
+    top: 70%;
+}
+.image{
+    justify-content: center;
+    height: 120%;
+}
+.right-arrow{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform:scale(1.08)
+}
+.slider{
+    padding-bottom: 200px;
+}
+.catalog{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 4rem;
+    color:#531600 ;
+    padding-bottom: 30px;
+}
+.catalog-exp{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.picall{
+    justify-content: center;
+    z-index: 2;
+    margin-top: 200px;
+    padding-bottom: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+.picall img{
+    top: 30%;
+    left: 50%;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+.picall h2{
+    font-size: 2.5rem;
+    color:#531600;
+}
+.picall p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: 500;
+}
+.pic12{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-bottom: 150px;
+    border-radius: 20px;
+}
+.pic1 img{
+    margin: 15%;
+    justify-content: center;
+    vertical-align: middle;
+}
+.pic2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    vertical-align: middle;
+}
+.featured{
+    padding-top: 20px;
+    background-color: #531600;
+}
+.catalog{
+    color: #c5c5c5;
+}
+.catalog-exp{
+    color:#c4c4c4;
+}
+@media screen and (max-width: 900px){
+    .catalog-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .catalog{
+        font-size: 3rem;
+    }
+    .picall{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .picall h2{
+        font-size: 2rem;
+    }
+    .picall p{
+        font-size: 1rem;
+        margin: 20px 30px;
+    }
+    .picall img{
+        width: 50%;
+    }
+    .pic12{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: white;
+        padding-bottom: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+        border-radius: 20px;
+    }
+    .pic1{
+        margin-top: 10%;
+        margin-bottom: 0px;
+        max-height: 400px;
+        height: 10%;
+    }
+    .pic2{
+        margin-top: 15%;
+        margin-bottom: 2px;
+    }
+    .pic1 img{
+        margin: 0 20%;
+        justify-content: center;
+    }
+}
