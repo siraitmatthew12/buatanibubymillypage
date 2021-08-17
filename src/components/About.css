@@ -1,8 +1,6 @@
 .back{
-    background-color: black;
-    background: url('sebardonut.png') ;
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-color: #af9989;
+    z-index: -999;
 }
 .aboutcontainer{
     margin-right: 18%;
@@ -19,14 +17,17 @@
     font-size: 4rem;
     margin-bottom: 50px;
     color:#531600 ;
+    z-index: 999;
 }
 .aboutcontainer h3{
     font-size: 2.0rem;
     margin-bottom: 30px;
     line-height: 50px;
+    z-index: 999;
 }
 .aboutcontainer .exp{
     font-size: 1.5rem;
+    z-index: 999;
 }
 .ownerabout img{
     margin-bottom: 10px;
